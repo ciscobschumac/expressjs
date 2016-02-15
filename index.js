@@ -3,6 +3,7 @@ var app = express();
 
 app.get('/', function (req, res) {
     res.send('Hello from Cisco Shipped!');
+    res.send('<p>Thanks for learning more about us!');
 });
 
 var server = app.listen(3000, function () {
